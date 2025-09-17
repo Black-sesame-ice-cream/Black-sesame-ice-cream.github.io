@@ -1,6 +1,3 @@
-# Black-sesame-ice-cream.github.io
-# Reaction-Diffusion
-
 Features / 主な機能
 * Real-time, interactive reaction-diffusion simulation.
 * Add custom text with selectable fonts (Mincho/Gothic) and multi-level outlines.
