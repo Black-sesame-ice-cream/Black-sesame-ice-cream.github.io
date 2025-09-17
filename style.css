@@ -1,0 +1,28 @@
+html,
+body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	overflow: hidden; /* スクロールバーを非表示に */
+}
+
+body {
+	background-color: black;
+	user-select: none;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	-o-user-select: none;
+	touch-action: none;
+	-webkit-touch-action: none;
+	/* ▼▼▼ 画面の中央に配置するためのスタイルを追加 ▼▼▼ */
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+/* ▼▼▼ キャンバスの表示サイズを固定するスタイルを追加 ▼▼▼ */
+#canvas-container canvas {
+	width: 600px !important;
+	height: 600px !important;
+}
